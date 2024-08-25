@@ -291,7 +291,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇭🇰|HK|hk|香港|港|HongKong"]}
+        {"action":"include","keywords":["🇭🇰|HK|香港|港|HongKong"]}
       ]
     },
     {
@@ -301,7 +301,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇹🇼|TW|tw|台湾|臺灣|台|Taiwan"]}
+        {"action":"include","keywords":["🇹🇼|TW|台湾|臺灣|台|Taiwan"]}
       ]
     },
     {
@@ -311,7 +311,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇸🇬|SG|sg|新加坡|狮|Singapore"]}
+        {"action":"include","keywords":["🇸🇬|SG|新加坡|狮|Singapore"]}
       ]
     },
     {
@@ -321,7 +321,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇯🇵|JP|jp|日本|日|Japan"]}
+        {"action":"include","keywords":["🇯🇵|JP|日本|日|Japan"]}
       ]
     },
     {
@@ -331,7 +331,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇰🇷|KR|kr|韩国|韩|Korean"]}
+        {"action":"include","keywords":["🇰🇷|KR|韩国|韩|Korean"]}
       ]
     },
     {
@@ -341,7 +341,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇺🇸|US|CA|us|美国|美|United States"]}
+        {"action":"include","keywords":["🇺🇸|US|CA|美国|美|United States"]}
       ]
     },
     {
@@ -361,7 +361,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"exclude","keywords":["🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇺🇸|US|us|美国|美|🇰🇷|KR|kr|韩国|韩|Korean|CA|FR|GB|FI|SE|DE|AE|NL|EE|IT|RU|PL|IE|CZ"]}
+        {"action":"exclude","keywords":["🇭🇰|HK|香港|香|🇹🇼|TW|台湾|台|🇸🇬|SG|新加坡|狮|🇯🇵|JP|日本|日|🇺🇸|US|美国|美|🇰🇷|KR|韩国|韩|Korean|CA|FR|GB|FI|SE|DE|AE|NL|EE|IT|RU|PL|IE|CZ"]}
       ]
     },
     {
