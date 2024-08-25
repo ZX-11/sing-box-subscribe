@@ -341,7 +341,8 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇺🇸|US|CA|美国|美|United States"]}
+        {"action":"include","keywords":["🇺🇸|US|CA|美国|美|United States"]},
+        {"action":"exclude","keywords":["SCALEWAY"]}
       ]
     },
     {
@@ -351,7 +352,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["FR|GB|FI|SE|DE|AE|NL|EE|IT|RU|PL|IE|CZ"]}
+        {"action":"include","keywords":["FR|GB|FI|SE|DE|AE|NL|EE|IT|RU|PL|IE|CZ|AU"]}
       ]
     },
     {
@@ -361,7 +362,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"exclude","keywords":["🇭🇰|HK|香港|香|🇹🇼|TW|台湾|台|🇸🇬|SG|新加坡|狮|🇯🇵|JP|日本|日|🇺🇸|US|美国|美|🇰🇷|KR|韩国|韩|Korean|CA|FR|GB|FI|SE|DE|AE|NL|EE|IT|RU|PL|IE|CZ"]}
+        {"action":"exclude","keywords":["🇭🇰|HK|香港|香|🇹🇼|TW|台湾|台|🇸🇬|SG|新加坡|狮|🇯🇵|JP|日本|日|🇺🇸|US|美国|美|🇰🇷|KR|韩国|韩|Korean|AU|CA|FR|GB|FI|SE|DE|AE|NL|EE|IT|RU|PL|IE|CZ"]}
       ]
     },
     {
