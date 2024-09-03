@@ -368,7 +368,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"exclude","keywords":["🇭🇰|HK|香港|香|🇹🇼|TW|台湾|台|🇸🇬|SG|新加坡|狮|🇯🇵|JP|日本|日|🇺🇸|US|美国|美|🇰🇷|KR|韩国|韩|Korean|CA|FR|GB|FI|SE|DE|NL|EE|IT|PL|AU|AT|CH|NO"]}
+        {"action":"exclude","keywords":["🇭🇰|HK|香港|香|🇹🇼|TW|台湾|台|🇸🇬|SG|新加坡|狮|🇯🇵|JP|日本|日|🇺🇸|US|美国|美|🇰🇷|KR|韩国|韩|Korean|CA|FR|GB|FI|SE|DE|NL|EE|IT|PL|AT|CH|NO"]}
       ]
     },
     {
