@@ -296,7 +296,8 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇭🇰|HK|香港|港|HongKong"]}
+        {"action":"include","keywords":["🇭🇰|HK|香港|港|HongKong"]},
+        {"action":"exclude","keywords":["HK Limited"]}
       ]
     },
     {
@@ -357,7 +358,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["FR|GB|FI|SE|DE|AE|NL|EE|IT|RU|PL|IE|CZ|AU"]}
+        {"action":"include","keywords":["FR|GB|FI|SE|DE|NL|EE|IT|PL|AU|AT|CH|NO"]}
       ]
     },
     {
@@ -367,7 +368,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"exclude","keywords":["🇭🇰|HK|香港|香|🇹🇼|TW|台湾|台|🇸🇬|SG|新加坡|狮|🇯🇵|JP|日本|日|🇺🇸|US|美国|美|🇰🇷|KR|韩国|韩|Korean|AU|CA|FR|GB|FI|SE|DE|AE|NL|EE|IT|RU|PL|IE|CZ"]}
+        {"action":"exclude","keywords":["🇭🇰|HK|香港|香|🇹🇼|TW|台湾|台|🇸🇬|SG|新加坡|狮|🇯🇵|JP|日本|日|🇺🇸|US|美国|美|🇰🇷|KR|韩国|韩|Korean|AU|CA|FR|GB|FI|SE|DE|NL|EE|IT|PL|AU|AT|CH|NO"]}
       ]
     },
     {
