@@ -109,8 +109,9 @@
         "日本",
         "韩国",
         "美国",
-        "欧洲",
-        "其他"
+        "欧盟",
+        "其他",
+        "Proxy"
       ],
       "default": "美国"
     },
@@ -124,9 +125,11 @@
         "日本",
         "韩国",
         "美国",
-        "欧洲",
-        "其他"
-      ]
+        "欧盟",
+        "其他",
+        "Proxy"
+      ],
+      "default": "新加坡"
     },
     {
       "tag":"Telegram",
@@ -138,9 +141,11 @@
         "日本",
         "韩国",
         "美国",
-        "欧洲",
-        "其他"
-      ]
+        "欧盟",
+        "其他",
+        "Proxy"
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"Twitter",
@@ -152,9 +157,11 @@
         "日本",
         "韩国",
         "美国",
-        "欧洲",
-        "其他"
-      ]
+        "欧盟",
+        "其他",
+        "Proxy"
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"Facebook",
@@ -166,9 +173,11 @@
         "日本",
         "韩国",
         "美国",
-        "欧洲",
-        "其他"
-      ]
+        "欧盟",
+        "其他",
+        "Proxy"
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"Spotify",
@@ -180,8 +189,9 @@
         "日本",
         "韩国",
         "美国",
-        "欧洲",
-        "其他"
+        "欧盟",
+        "其他",
+        "Proxy"
       ],
       "default": "美国"
     },
@@ -195,9 +205,11 @@
         "日本",
         "韩国",
         "美国",
-        "欧洲",
-        "其他"
-      ]
+        "欧盟",
+        "其他",
+        "Proxy"
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"Apple",
@@ -210,9 +222,11 @@
         "日本",
         "韩国",
         "美国",
-        "欧洲",
-        "其他"
-      ]
+        "欧盟",
+        "其他",
+        "Proxy"
+      ],
+      "default": "direct"
     },
     {
       "tag":"Microsoft",
@@ -225,38 +239,11 @@
         "日本",
         "韩国",
         "美国",
-        "欧洲",
-        "其他"
-      ]
-    },
-    {
-      "tag":"Games",
-      "type":"selector",
-      "outbounds":[
-        "direct",
-        "香港",
-        "台湾",
-        "新加坡",
-        "日本",
-        "韩国",
-        "美国",
-        "欧洲",
-        "其他"
-      ]
-    },
-    {
-      "tag":"Streaming",
-      "type":"selector",
-      "outbounds":[
-        "香港",
-        "台湾",
-        "新加坡",
-        "日本",
-        "韩国",
-        "美国",
-        "欧洲",
-        "其他"
-      ]
+        "欧盟",
+        "其他",
+        "Proxy"
+      ],
+      "default": "direct"
     },
     {
       "tag":"Global",
@@ -268,8 +255,9 @@
         "日本",
         "韩国",
         "美国",
-        "欧洲",
+        "欧盟",
         "其他",
+        "Proxy",
         "direct"
       ]
     },
@@ -352,7 +340,7 @@
       ]
     },
     {
-      "tag":"欧洲",
+      "tag":"欧盟",
       "type":"selector",
       "outbounds":[
         "{all}"
@@ -474,14 +462,6 @@
       {
         "rule_set": "geosite-microsoft",
         "outbound": "Microsoft"
-      },
-      {
-        "rule_set": ["geosite-category-games", "geosite-dmm"],
-        "outbound": "Games"
-      },
-      {
-        "rule_set": ["geosite-hbo", "geosite-primevideo"],
-        "outbound": "Streaming"
       },
       {
         "rule_set": "geosite-geolocation-!cn",
@@ -624,34 +604,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/microsoft.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-category-games",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-games.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-dmm",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/dmm.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-hbo",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/hbo.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-primevideo",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/primevideo.srs",
         "download_detour": "direct"
       },
       {
